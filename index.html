@@ -1,49 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JQuery</title>
-    <link rel="preconnect" href="http://fonts.googleapis.com">
-    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <title>Galeria de  fotos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
-
 </head>
 
 <body>
     <header>
-        <h1>Galeria de Fotos</h1>
+        <h1>Galeria de fotos</h1>
         <button type="button">Nova imagem +</button>
     </header>
-    <form>
-        <h2>Inserir nova imagem</h2>
-        <input type="url" id="url-img" required placeholder="URL da imagem">
-        <button type="submit">Adicionar</button>
-        <button type="reset" id = botao-cancelar>Cancelar</button>
-    </form>
-    <ul>
-        <li>
-            <img src = "./images/foto1.jpg" alt = "Pintura de um gato"/>
-            <div class = "overlay-img-link">
-                <a href  = "./images/foto1.jpg" title="Ver imagem em tamanho real" target="_blank"> Ver imagem em tamanho real</a>
+        <form >
+            <h2>Inserir nova imagem</h2>
+            <input  type="url" id="url-imagem-nova" required placeholder="URL da imagem"/>
+            <button type="submit">Adicionar</button>
+            <button type="reset"id="botao-cancelar">Cancelar</button>
+        </form>
+        <ul>
+            <li>
+                <img src="./images/foto1.jpg" alt="Pintura de gato"/>
+            <div class="overlay-imagem-link">
+                <a href="./images/foto1.jpg" title="Ver imagem em tamanho real " target="_blank">
+                Ver imagem em tamanho real 
+                </a>
             </div>
-        </li>
-        <li>
-            <img src = "./images/foto2.jpg" alt = "Foto de um flamingo"/>
-            <div class = "overlay-img-link">
-                <a href  = "./images/foto2.jpg" title="Ver imagem em tamanho real" target="_blank"> Ver imagem em tamanho real</a>
+            </li>
+            <li>
+                <img src="./images/foto2.jpg" alt="Foto flamingo"/>
+            <div class="overlay-imagem-link">
+                <a href="./images/foto2.jpg" title="Ver imagem em tamanho real " target="_blank">
+                Ver imagem em tamanho real 
+                </a>
             </div>
-        </li>
-        <li>
-            <img src = "./images/foto3.jpg" alt = "Foto de filhotes de cachorro"/>
-            <div class = "overlay-img-link">
-                <a href  = "./images/foto3.jpg" title="Ver imagem em tamanho real" target="_blank"> Ver imagem em tamanho real</a>
+            </li>
+            <li>
+                <img src="./images/foto3.jpg" alt="Foto filhotes de cachorros"/>
+            <div class="overlay-imagem-link">
+                <a href="./images/foto3.jpg" title="Ver imagem em tamanho real " target="_blank">
+                Ver imagem em tamanho real 
+                </a>
             </div>
-        </li>
-    </ul>
-    <script src ="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src ="./main.js"></script>
+            </li>
+        </ul>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="./main.js"></script>
 </body>
 </html>

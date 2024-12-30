@@ -65,7 +65,7 @@ ul li img{
     width: 100%;
     height: 280px;
 }
-.overlay-img-link{
+.overlay-imagem-link{
     padding: 16px;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -76,11 +76,11 @@ ul li img{
     transition: all ease .5s;
 }
 
-.overlay-img-link a{
+.overlay-imagem-link a{
     color: #fff;
     text-decoration: none;
 }
 
-ul li:hover .overlay-img-link{
+ul li:hover .overlay-imagem-link{
     opacity: 1;
 }
