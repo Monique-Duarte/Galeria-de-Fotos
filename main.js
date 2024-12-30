@@ -4,9 +4,9 @@ $(document).ready(function(){
         $('form').slideDown();
     })
 
-
+    
     //quando clicar em "cancelar", o display é recolhido
-    $('#botao-cancelar').click(function(){
+    $('#botao-cancelar').click(function() {
         $('form').slideUp();
     })
 
